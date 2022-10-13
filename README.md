@@ -54,7 +54,7 @@ You can also return to the main screen by hitting Ctrl + A, then D. If you wish 
 screen -r armaserver
 ```
 You can close your Arma 3 server at any time by hitting Ctrl + C in the Arma 3 Server console.
-Firewall Rules (UFW)
+# Firewall Rules (UFW)
 
 If UFW is enabled, you may have to add a few new rules. This can easily be done with the following commands:
 ```
