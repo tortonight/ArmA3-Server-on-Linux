@@ -53,6 +53,11 @@ You can also return to the main screen by hitting Ctrl + A, then D. If you wish 
 ```bash
 screen -r armaserver
 ```
+Kill detached screen session [closed]
+```bash
+screen -list
+kill [NUMBER] (Detached)
+```
 You can close your Arma 3 server at any time by hitting Ctrl + C in the Arma 3 Server console.
 # Firewall Rules (UFW)
 
