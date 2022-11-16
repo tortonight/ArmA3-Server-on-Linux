@@ -48,6 +48,7 @@ screen -S armaserver
 Run the Arma 3 server. Additional launch parameters can be found on the Bohemia Interactive Wiki.
 ```bash
 ./arma3server
+./arma3server_x64 -ip=0.0.0.0 -port=2302 -profiles=./serverprofile -bepath=./battleye -cfg=basic.cfg -config=server.cfg -mod= -serverMod=@Apex -filePatching -noLogs
 ```
 You can also return to the main screen by hitting Ctrl + A, then D. If you wish to return to the server console, you can do so by using the command below (where "armaserver" is your screen name).
 ```bash
