@@ -34,7 +34,7 @@ rm -f steamcmd_linux.tar.gz
 ./steamcmd.sh
 ```
 ```bash
-login <USER> <PASS>
+login <USER> <PASS> (Steam ID)
 force_install_dir ../server
 app_update 233780 validate
 app_update 233780 -beta creatordlc validate //[DLCs]
