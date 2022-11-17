@@ -1,6 +1,6 @@
 # ArmA3-Server-on-Linux
 [link](https://community.bistudio.com/wiki/Arma_3:_Dedicated_Server#Instructions_.28Linux_o.2Fs.29)
-# Installation
+# Installation (with root)
 ```bash
 apt-get update && apt-get upgrade
 apt-get install lib32stdc++6
