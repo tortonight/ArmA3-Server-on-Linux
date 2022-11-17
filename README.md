@@ -5,6 +5,8 @@
 apt-get update && apt-get upgrade
 apt-get install lib32stdc++6
 apt-get install screen
+apt install libSDL2-2*
+restart
 ```
 ```bash
 mkdir /home/ArmA3
