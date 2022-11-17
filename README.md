@@ -16,8 +16,10 @@ cd steam
 - 1.Download the SteamCMD executable.
 ```bash
 wget http://media.steampowered.com/client/steamcmd_linux.tar.gz
+```
 or
-https://github.com/tortonight/ArmA3-Server-on-Linux/raw/main/steamcmd_linux.tar.gz
+```bash
+wget https://github.com/tortonight/ArmA3-Server-on-Linux/raw/main/steamcmd_linux.tar.gz
 ```
 - 2.Extract the contents to the directory.
 ```bash
@@ -33,7 +35,7 @@ rm -f steamcmd_linux.tar.gz
 ```
 ```bash
 login <USER> <PASS>
-force_install_dir ../arma3
+force_install_dir ../server
 app_update 233780 validate
 app_update 233780 -beta creatordlc validate //[DLCs]
 exit
