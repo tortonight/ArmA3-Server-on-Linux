@@ -7,9 +7,10 @@ apt-get install lib32stdc++6
 apt-get install screen
 ```
 ```bash
-cd /home/<USER>
+mkdir /home/ArmA3
+cd /home/ArmA3
 mkdir steam
-mkdir arma3
+mkdir server
 cd steam
 ```
 - 1.Download the SteamCMD executable.
