@@ -42,7 +42,7 @@ exit
 ```
 Once it finishes downloading, you can close SteamCMD by typing in exit. Since we now have the Arma 3 server downloaded, we can now start it by changing to the arma3 directory.
 ```bash
-cd ../arma3
+cd ../server
 ```
 ... and then starting a new screen to start the server, where armaserver is the screen name.
 ```bash
